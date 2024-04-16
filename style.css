@@ -1,0 +1,101 @@
+.white-padding {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.gray-padding {
+    padding: 19px;
+    background-color: #f5f6ce;
+}
+
+.yellow-padding {
+    padding: 3px;
+    background-color: hsl(60, 97%, 85%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #ffffff;
+}
+
+header {
+    padding: 4px;
+    background-color: red;
+    text-align: center;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px; /* Ajuster selon les besoins */
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.separator {
+    border: 1px solid #000000;
+    width: 100%;
+    margin: 10px 0; /* Espacement autour de la ligne */
+}
+
+.section {
+    padding: 20px; /* Ajuster selon les besoins */
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #000000; /* Bordures du pied de page */
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+
+.footer-content {
+    max-width: 1200px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centrer le contenu */
+    color: #000000;
+    background-color: #ffffff;
+}
+
+footer a {
+    text-decoration: underline; /* Soulignez le lien */
+    color: #0000ff; /* Couleur du texte du lien */
+}
+
+.centered-image {
+    max-width: 500px;
+    margin: 0 auto; /* Centrer l'image horizontalement */
+}
+
+.centered-square {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Couleur de fond grise */
+    border: 1px solid #000000; /* Bordure solide noire */
+    margin: 10px auto; /* Centrer le carré horizontalement */
+    width: 600px; /* Largeur du carré */
+}
+
+.gray-underline {
+    color: #a19e9e; /* Couleur grise */
+    text-decoration: underline; /* Soulignez le lien */
+}
+
+.literature-poem {
+    margin: 0;
+    padding: 10px; /* Ajout d'une marge interne pour plus d'espace */
+    width: 100%;
+    box-sizing: border-box; /* Inclure la marge et le rembourrage dans la largeur du div */
+}
+
+.literature-poem p {
+    margin: 0;
+    line-height: 1.5; /* Hauteur de ligne pour faciliter la lecture */
+}
